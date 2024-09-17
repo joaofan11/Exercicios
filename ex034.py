@@ -5,6 +5,6 @@
 salario = float(input("Digite o sálario: "))
 
 if salario <= 1250.00:
-    print("Seu aumento é de {:.2f}".format(salario*0.15))
+    print("Seu aumento é de {:.2f}".format(salario+(salario*0.15)))
 else:
-    print("Seu aumento é de {:.2f}".format(salario*0.10))
+    print("Seu aumento é de {:.2f}".format(salario+(salario*0.10)))
